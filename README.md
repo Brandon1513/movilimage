@@ -48,3 +48,53 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+- # App de Descarga de Imagen con Registro de Usuario - Dasavena
+
+Aplicación móvil desarrollada con **React Native + Expo** que permite:
+
+- Iniciar sesión según el rol de usuario (Administrador o Usuario).
+- Descargar una imagen de perfil desde el backend y guardarla en la galería.
+- Registrar en la base de datos cada vez que un usuario descarga una imagen.
+- Generar código QR con una imagen subida.
+- Visualizar enlaces web directamente desde la app.
+
+## 🔗 Backend
+
+Repositorio del backend (Node.js + Express):  
+➡️ https://github.com/Brandon1513/backappimage
+
+## 📱 Tecnologías usadas
+
+- React Native con Expo
+- TypeScript (opcional)
+- AsyncStorage
+- MediaLibrary (Expo)
+- FileSystem (Expo)
+- QRCode
+- WebView
+
+## 🧪 Funcionalidades
+
+- 📤 Subir imagen desde galería.
+- 🖼️ Ver última imagen subida.
+- ⬇️ Descargar imagen y registrar la descarga en MySQL.
+- 🌐 Acceso a enlaces externos mediante WebView.
+- 🔐 Inicio de sesión con token y almacenamiento local.
+
+## 📦 Instalación
+
+```bash
+git clone https://github.com/TU_USUARIO/nombre-del-repo.git
+cd nombre-del-repo
+npm install
+npx expo start
+
+screens/
+├── LoginScreen.tsx
+├── HomeScreen.tsx
+├── DownloadImageScreen.tsx
+├── GenerateQRScreen.tsx
+├── WebViewScreen.tsx
+└── WebViewRecursosDasa.tsx
+
